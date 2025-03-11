@@ -1,0 +1,256 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+     font-weight: bold;
+}
+
+/* Header Styles */
+header {
+    background-color: blue;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+    
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Sections */
+section {
+    padding: 20px;
+    text-align: center;
+}
+.shop-container {
+    display: flex;
+    flex-wrap: wrap; /* Allows items to wrap into a new row if needed */
+    justify-content: center; /* Centers the products horizontally */
+    gap: 20px; /* Adds spacing between products */
+    padding: 20px;
+}
+
+#shop .product {
+    background:none;
+    padding: 0px;
+     margin: 10px auto;
+    width: 220px;
+    box-shadow: none;
+    border-radius: 0;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+}
+
+.product img {
+    width:200px;
+    border-radius: 10px;
+    height:auto;
+    display:block;
+}
+
+/* Contact Form */
+#contact {
+    background: white;
+    padding: 30px;
+    margin: 20px auto;
+    width: 50%;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#contact-form label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#contact-form input,
+#contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#contact-form button {
+    background-color:black;
+    color:white;
+    padding: 15px 30px;
+    max-width:500px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#contact-form button:hover {
+    background-color: #444;
+}
+
+
+
+/* Footer */
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+h1{
+     color: orange;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+}
+
+/* Header and Navigation */
+header {
+    background-color: blue;
+    color: white;
+    padding: 20px 0;
+}
+
+.tabs {
+    margin-top: 10px;
+}
+
+.tab {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.tab:hover {
+    background-color: #2980b9;
+}
+
+/* Content Sections */
+.tab-content {
+    display: none; /* Hide all sections by default */
+    padding: 20px;
+    background-color: white;
+    margin: 20px auto;
+    width: 60%;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.tab-content h2 {
+    color: #333;
+}
+
+/* Ensure only the active tab content is shown */
+
+
+/* Footer */
+footer {
+    background-color: #222;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
+.facebook-btn {
+    display: inline-block;
+    background-color: #1877f2; /* Facebook Blue */
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.facebook-btn:hover {
+    background-color: #145dbf; /* Darker Blue */
+}
+.contact-info {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+}
+
+.facebook-link {
+    font-size: 20px;
+    font-weight: bold;
+    color: #1877f2; /* Facebook Blue */
+    text-decoration: none;
+}
+
+.facebook-link:hover {
+    color: #145dbf; /* Darker blue on hover */
+}
+.shop-link {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+    color: blue;
+    text-decoration: none;
+}
+
+.shop-link:hover {
+    text-decoration: underline;
+}
+/* Style for Shop Page Two Header */
+.shop-page-two header {
+    background-color:blue;  /* Change background color */
+    color: white;  /* Change text color */
+    font-family: 'Arial', sans-serif; /* Change font */
+    text-align: center;  /* Center text */
+    padding: 20px;
+}
+
+.shop-page-two h1 {
+    font-size: 36px; /* Increase font size */
+    font-weight: bold; /* Make text bold */
+    letter-spacing: 2px; /* Add spacing between letters */
+    text-transform: uppercase; /* Make text uppercase */
+}
+
+/* Change navigation style */
+.shop-page-two nav a {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline=block;
+}
+
+.shop-page-two nav a:hover {
+    background-color:blue;
+    text-decoration: none;
+}
